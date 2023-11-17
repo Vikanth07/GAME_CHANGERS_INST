@@ -57,7 +57,7 @@ router.post('/',(req,res)=>{
   const mailOptions = {
     from: 'yvikanth817@gmail.com',
     to: 'yvikanth817@gmail.com',
-    subject: 'Form Submission',
+    subject: 'Form Submission from Student',
     //text: `Form submitted with the following data:\n${JSON.stringify(formData, null, 2)}`,
     html: mailoutput,
   };
@@ -124,7 +124,7 @@ router.post('/home',(req,res)=>{
   const mailOptions = {
     from: 'yvikanth817@gmail.com',
     to: 'yvikanth817@gmail.com',
-    subject: 'Form Submission',
+    subject: 'Form Submission from Tutor',
     //text: `Form submitted with the following data:\n${JSON.stringify(formData, null, 2)}`,
     html: mailoutput,
   };
